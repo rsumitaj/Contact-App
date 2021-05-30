@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#page-heading{
+  text-align: center;
+  margin:25px;
+  color: grey;
+}
+
+.contact{ 
+  margin: 0 35%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+  background-color: #6B8AF7;
+}
+
+.details{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  color: white;
+}
+
+li:hover{
+  background-color: gray;
+}
+
+input{
+  margin:10px;
+  font-size: 0.8rem;
+  border: none;
+  border-bottom: 1px solid black;
+}
+button{
+  background-color: gray;
+}
